@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.game-area {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.snake-head {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+}
+
+.snake-body {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: limegreen;
+}
+
+.food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 18px;
+}
